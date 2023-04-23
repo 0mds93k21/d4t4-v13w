@@ -6,14 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <title>Myzuu Admin</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/animate.css">
-    <link rel="stylesheet" href="/assets/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-
 </head>
 
 <body>
@@ -29,7 +21,21 @@
             <div class="content">
 
                 <div class="row">
+                    <a href="/view/home/" class="col-12 d-flex">
+                        <div class="dash-count das1">
+                            <div class="dash-counts">
+                                <h4 id="watchers-home">0</h4>
+                                <h5>View Home Myzuu</h5>
+                            </div>
+                            <div class="dash-imgs">
+                                <i class="ri-home-6-line"></i>
+                            </div>
+                        </div>
+                    </a>
 
+                </div>
+
+                <div class="row">
                     <a href="/view/home/" class="col-lg-3 col-sm-6 col-12">
                         <div class="dash-widget">
                             <div class="dash-widgetimg">
@@ -54,58 +60,14 @@
 
                 </div>
 
-                <!-- Row --
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-12 d-flex">
-                        <div class="dash-count">
-                            <div class="dash-counts">
-                                <h4>100</h4>
-                                <h5>Customers</h5>
-                            </div>
-                            <div class="dash-imgs">
-                                <i data-feather="user"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-flex">
-                        <div class="dash-count das1">
-                            <div class="dash-counts">
-                                <h4>100</h4>
-                                <h5>Suppliers</h5>
-                            </div>
-                            <div class="dash-imgs">
-                                <i data-feather="user-check"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-flex">
-                        <div class="dash-count das2">
-                            <div class="dash-counts">
-                                <h4>100</h4>
-                                <h5>Purchase Invoice</h5>
-                            </div>
-                            <div class="dash-imgs">
-                                <i data-feather="file-text"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-flex">
-                        <div class="dash-count das3">
-                            <div class="dash-counts">
-                                <h4>105</h4>
-                                <h5>Sales Invoice</h5>
-                            </div>
-                            <div class="dash-imgs">
-                                <i data-feather="file"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row -->
+
 
             </div>
         </div>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+    <script src="/assets/plugins/firebase/home/firebase.min.js"></script>
 
     <script src="https://cdn.plyr.io/3.4.6/plyr.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

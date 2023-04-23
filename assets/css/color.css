@@ -1,0 +1,19 @@
+.dash-count {
+    background: #9442fe;
+    color: #fff;
+    min-height: 98px;
+    width: 100%;
+    border-radius: 6px;
+    margin: 0 0 25px;
+    padding: 20px;
+}
+
+.dash-count.das1 {
+    background: #9442fe;
+  }
+  .dash-count.das2 {
+    background: #1B2850;
+  }
+  .dash-count.das3 {
+    background: #28C76F;
+  }
